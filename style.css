@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --greyish-blue: hsl(237, 18%, 59%); 
+    --soft-red: hsl(345, 95%, 68%); 
+    --dark-desaturated-blue: hsl(236, 21%, 26%); 
+    --very-dark-blue: hsl(235, 16%, 14%);
+    --mostly-black-blue: hsl(234, 17%, 12%);
+}
+
+body {
+    background-color: var(--mostly-black-blue);
+    background-image: url(./images/bg-stars.svg);
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+}
+
+#countdown {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+} 
+#data {
+    display: flex;
+}
+#data > div {
+    display: inline-block;
+    margin: 0 20px;
+}
+#countdown span {
+    display: block;
+    font-size: 50px;
+    color: var(--soft-red);
+}
+.smalltext {
+    font-size: 14px;
+    color: var(--greyish-blue);
+}
+
+#social-media {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.icon {
+    margin-right: 3rem;
+}
+
+.pattern-hills {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
